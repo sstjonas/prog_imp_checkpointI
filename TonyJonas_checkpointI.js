@@ -1,4 +1,5 @@
 // TONY JONAS DOS SANTOS SOUSA
+// Grupo 6: MAYARA ARAUJO, WESLLEY MILANI, ROBSON LOPES E TONY JONAS
 
 let opcoesComida = {
     pipoca: 10,
@@ -13,7 +14,6 @@ se <1x  - tempo insuficiente
 opções não listadas  - prato inexistente
 se >3x -  kabum
 */
-microondas(macarrao, 50) 
 let microondas = (comida, tempo) => { //arrow function
     if (opcoesComida.hasOwnProperty(comida)) {  //caso a comida escolhida esteja dentro do cardápio
         for (let prato in opcoesComida){  //loop pra entrar em cada propriedade do objeto (ex: retorna pipoca, macarrao, etc)
